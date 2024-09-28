@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #download{
+            width: 200px;
+            height: 20px;
+            background-color:  #fbf4f4;
+            position:  absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-50% -50%);
+            border-radius: 10px;
+        }
+        #progress{
+            background-color:  green;
+             height: 20px;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: all cubic-bezier(0.19, 1, 0.22, 1).5;
+        }
+    </style>
+</head>
+<body>
+    <div id="download">
+        <div id="progress"></div>
+         <h3>Loading.....</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
